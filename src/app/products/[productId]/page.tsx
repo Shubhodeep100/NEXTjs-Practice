@@ -1,5 +1,5 @@
 export default function ProductDetails({ params } : {
     params: { productId: string }
 }) {
-    return <h1>Details of the product we have{params.productId}</h1>
+    return <h1>Details of the product we have {params.productId}</h1>
 }

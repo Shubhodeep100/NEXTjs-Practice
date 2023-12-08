@@ -23,3 +23,4 @@ export const generateMetadata =async ({ params }: Props): Promise<Metadata> => {
 export default function ProductDetails({ params }: Props) {
     return <h1>Details of the product we have {params.productId}</h1>;
 } 
+ 
